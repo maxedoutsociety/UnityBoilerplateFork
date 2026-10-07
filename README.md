@@ -9,19 +9,19 @@ WebGL published here (EDIT IT!): https://YOUR_GH_USERNAME.github.io/YOUR_REPO_NA
 
 # Setup Steps:
 
-- [ ] I understand FERPA laws. If I make the repository public, I will remove any student information, or I am waiving the requirement to remove student information. Otherwise, I am making the repository private;
-- [ ] I have forked the repository to my own GitHub account;
-- [ ] I have cloned it to my machine and edited the README.md file to include my own information on the url for the web build;
-- [ ] I have followed the instructions to activate my personal licence here: https://game.ci/docs/github/activation/ ;
-    - [ ] If I choose to make the repository private, I will follow this guide to add the instructor as a collaborator. https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository and set up the keys here https://game.ci/docs/github/builder/#private-github-repositories
-- [ ] I have visited the `Settings` > `Secrets and Variables` > `Actions` on my github repository and added the following secrets:
-    - [ ] `UNITY_LICENSE` secret to my repository with the contents of my `Unity_lic.ulf` license file;
-    - [ ] `UNITY_EMAIL` secret to my repository with my Unity account email;
-    - [ ] `UNITY_PASSWORD` secret to my repository with my Unity account password;
-- [ ] I changed the `Settings` > `Pages` > `Source` to **GitHub Actions**;
-- [ ] I opened the project locally in Unity 6000.x, made a change, and committed and pushed it to the `main` or `master` branch of the repository;
-- [ ] I saw and waited the GitHub Actions run execute on the `Actions` tab;
-- [ ] I can open the web build in the browser at the url: https://YOUR_GH_USERNAME.github.io/YOUR_REPO_NAME/
+- [X] I understand FERPA laws. If I make the repository public, I will remove any student information, or I am waiving the requirement to remove student information. Otherwise, I am making the repository private;
+- [X] I have forked the repository to my own GitHub account;
+- [X] I have cloned it to my machine and edited the README.md file to include my own information on the url for the web build;
+- [X] I have followed the instructions to activate my personal licence here: https://game.ci/docs/github/activation/ ;
+    - [X] If I choose to make the repository private, I will follow this guide to add the instructor as a collaborator. https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository and set up the keys here https://game.ci/docs/github/builder/#private-github-repositories
+- [X] I have visited the `Settings` > `Secrets and Variables` > `Actions` on my github repository and added the following secrets:
+    - [X] `UNITY_LICENSE` secret to my repository with the contents of my `Unity_lic.ulf` license file;
+    - [X] `UNITY_EMAIL` secret to my repository with my Unity account email;
+    - [X] `UNITY_PASSWORD` secret to my repository with my Unity account password;
+- [X] I changed the `Settings` > `Pages` > `Source` to **GitHub Actions**;
+- [X] I opened the project locally in Unity 6000.x, made a change, and committed and pushed it to the `main` or `master` branch of the repository;
+- [X] I saw and waited the GitHub Actions run execute on the `Actions` tab;
+- [X] I can open the web build in the browser at the url: https://maxedoutsociety.github.io/UnityBoilerplateFork/
 
 # The pipeline:
 
